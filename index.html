@@ -1,0 +1,40 @@
+<html lang="en" data-theme = "light">
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="main">
+            <div class="hero">
+                <button class="toogle" type="button" data-theme-toggle><i id="icon" class="fa-solid fa-sun"></i></button>
+                <div class="intro">
+                    <h1>Generate a <span>random password</span></h1>
+                    <p>Never use a insecure password again</p>
+                </div>
+                <div class="control">
+                    <button class="btn">Generate Password</button>
+                    <div class="size">
+                        <p>length:</p>
+                        <input type="number" id="length">
+                    </div>
+                    <div class="specific">
+                        <div class="box">
+                            <p>numbers:</p>
+                            <input id="numbers" type="checkbox">
+                        </div>
+                        <div class="box">
+                            <p>special char:</p>
+                            <input id="specialChar" type="checkbox">
+                        </div>
+                    </div>
+                </div>
+                <span class="line"></span>
+                <div class="passwords">
+                    <input id="password1" type="text">
+                    <input id="password2" type="text">
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
